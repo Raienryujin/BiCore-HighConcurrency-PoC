@@ -1,0 +1,32 @@
+## Visual Studio & C# Build Artifacts
+bin/
+obj/
+**/bin/
+**/obj/
+
+## LocalDB Databases (Prevent committing 2M row databases)
+*.mdf
+*.ldf
+
+## Visual Studio Cache, Temp & User Files
+.vs/
+[Dd]ebug/
+[Rr]elease/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.userprefs
+
+## Rider & Resharper files
+.idea/
+*.sln.iml
+
+## Visual Studio Code settings
+.vscode/
+
+## Testing & Load Test Outputs (k6)
+node_modules/
+.pnpm-debug.log*
+yarn-error.log*
+npm-debug.log*
