@@ -3,6 +3,8 @@ bin/
 obj/
 **/bin/
 **/obj/
+[Bb]in/
+[Oo]bj/
 
 ## LocalDB Databases (Prevent committing 2M row databases)
 *.mdf
